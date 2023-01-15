@@ -1,0 +1,22 @@
+{
+  "name": "workouts",
+  "version": "1.0.0",
+  "description": "basic project form The Net Ninja tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sparsh Sethi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "decrypt": "^0.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}
